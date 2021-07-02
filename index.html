@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="webCont">
+        <div id="message">
+        </div>
+        <div class="head">
+            <h1>Welcome to the Notes Apps</h1>
+            <hr class="divide" id="h-centre">
+        </div>
+        <div class="notearea">
+            <div class="topic">
+                <label class="before" for="addtitle">Add Title</label>
+                <input type="text" class="title" id="addtitle">
+            </div>
+            <div class="textarea">
+                <label for="addtxt" class="before">Add note</label>
+                <textarea class="txtarea" id="addtxt" rows="3"></textarea>
+            </div>
+            <div class="submit">
+                <button type="submit" id="addbtn" class="btn">Add Note</button>
+            </div>
+        </div>
+        <div class="givennote">
+            <h1 class="h1-centre">Your Notes</h1>
+            <hr class="divide" id="h-centre">
+            <div id="notes" class="container">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="notes.js"></script>
+
+</html>
