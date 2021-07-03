@@ -1,0 +1,76 @@
+@media only screen and (max-width: 700px){
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    width: 200vw;
+    overflow: auto;
+}
+.webCont{
+    position: relative;
+    width: 100%;
+}
+.head{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.message{
+    position: relative;
+    width: 100%;
+}
+.alert-danger{
+    position: relative;
+    width: 100%;
+    font-size: 35px;
+}
+.notearea{
+    position: relative;
+    width: 90%;
+    height: auto;
+    font-size: 300%;
+}
+.topic,
+.textarea{
+    position: relative;
+    width: 90%;
+}
+input,
+textarea{
+    position: relative;
+    width: 90% !important;
+    font-size: 40px !important;
+}
+.submit{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+#addbtn{
+    margin: 5px 0;
+    position: relative;
+    width: 50%;
+    font-size: 30px;
+}
+.h1-centre{
+    font-size: 40px;
+}
+#notes{
+    font-size: 30px;
+}
+hr{
+    position: relative;
+    height: auto;
+}
+.noteCard{
+    font-size: 50px !important;
+}
+.delbtn{
+    width: 140px;
+    font-size: 30px;
+}
+}
