@@ -52,7 +52,7 @@ hr{
     background: #ffffff30;
     width: 470px;
     border-radius: 20px;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(6px);
 }
 .topic{
     width: 400px;
