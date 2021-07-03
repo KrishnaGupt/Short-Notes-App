@@ -90,7 +90,7 @@ function timer() {
   const date = new Date().getHours()
     if (date >= 19 || date <5) {
     // console.log('it is night');
-      body.style.background = 'url(backgrounds/night.jpg)'
+      body.style.background = 'url(Backgrounds/night.jpg)'
       body.style.backgroundSize = 'cover'
       body.style.color = 'white'
       btn.style.color = 'white'
@@ -99,17 +99,17 @@ function timer() {
   }
   else if (date >= 5 && date <7) {
     // console.log('it is sunrise');
-    body.style.background = 'url(backgrounds/sunrise.jpg)'
+    body.style.background = 'url(Backgrounds/sunrise.jpg)'
       body.style.backgroundSize = 'cover'
   }
   else if (date >= 7 && date <16) {
     // console.log('it is day');
-    body.style.background = 'url(backgrounds/day.jpg)'
+    body.style.background = 'url(Backgrounds/day.jpg)'
       body.style.backgroundSize = 'cover'
   }
   else if (date >= 16 && date <19) {
     // console.log('it is sunset');
-    body.style.background = `url(backgrounds/sunset.jpg)`
+    body.style.background = 'url(Backgrounds/sunset.jpg)'
       body.style.backgroundSize = 'cover'
   }
 }
